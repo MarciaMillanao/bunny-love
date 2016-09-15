@@ -1,0 +1,62 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+/*responsive*/
+@media (max-width: 824px) {
+	.col-3, .col-7, .col-5, .col-10 {
+		width: 100%;
+	}
+	img{
+		max-width: 100%;
+	}
+	iframe{
+		max-width:100% ;
+	}
+	header{
+		padding: 0%;
+	}
+	.col-5{
+		display: none;
+	}
+	.letras{
+		display: none;
+	}
+	h2{
+		font-size: 20px;
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	.menu{
+		display: inline-block;
+		float: right;
+		color:#FFFFFF;	
+		font-size: 50px;
+		margin-top: 30px;
+	}
+	.container{
+		margin-left: 50px;
+	}
+	.portada{
+		padding: 60px 20px;
+	}
+
+	.sobre{
+		padding: 10px 2px;
+		margin-left: 2px;
+	}
+	h1{
+		padding: 10px 2px;
+		font-size: 20px;
+	}
+	.sobre p{
+		font-size: 8px;
+	}
+	.descripcion{
+		height: 450px;
+	}
+
+}

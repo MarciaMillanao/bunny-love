@@ -1,0 +1,181 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0 ;
+}
+
+body{
+	
+	background: #ecf7fb;
+
+}
+
+img{
+	max-width: 100%;
+}
+.container{
+	width:80%;
+	margin-left: 120px;
+}
+/*header*/
+header{
+	background: #2c818b;
+	padding: 10px 120px;
+}
+
+h2{
+	font-family: "Baloo Paaji";
+	font-size: 32px;
+	color: #FFFFFF;
+}
+
+h2 span{
+	color: #ff7673;
+} 	
+
+.menu{
+	display: none;
+}
+
+li{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	padding: 0 5px;
+	color: #FFFFFF;
+	font-family: "Prompt";
+}
+/*portada*/
+.portada{
+	background: url(../img/img-1.jpg) no-repeat;
+	padding: 100px;
+	background-size: cover;
+	
+}
+
+.sobre{
+	background: #2c818b;
+	margin-left: 100px;
+	opacity: 0.7;
+	padding: 50px;
+	}
+
+h1{
+	font-family: "Baloo Paaji";
+	text-align: center;
+	font-size: 60px;
+	padding: 40px 100px;
+	color: #ff7673;
+}
+
+.sobre p{
+	color:#FFFFFF;
+	text-align: center;
+}
+/*descripcion*/
+.conejos{
+	padding: 20px;
+	background: #FFFFFF;
+}
+
+.descripcion{
+	background: #2c818b;
+	border: 10px solid #FFFFFF;
+	height: 380px;  
+}
+
+h3{
+	color:#ff7673;
+	font-family: "Baloo Paaji";
+	text-align: center;
+	padding: 10px;
+}
+
+.descripcion p{
+	font-family: "Prompt";
+	padding: 10px;
+	text-align: center;
+	color:#FFFFFF;
+}	
+
+/*link*/
+.link{
+	background: #2c818b;
+	padding: 40px;
+}
+
+.fotos{
+	background: #ecf7fb;
+	border: 10px solid #2c818b;
+}
+h4{
+	font-family: "Baloo Paaji"; 
+	padding: 15px;
+}
+
+.fotos p{
+	font-family: "Prompt";
+	padding: 20px;
+}
+
+.icon{
+		padding: 20px 0px 40px 0px;
+}
+
+.icon a{
+	font-size:20px;
+	color:#2c8188;
+	text-align: center;
+	margin-left: 60px;
+}
+
+/*boton*/
+input[type="search"]{
+	width: 45px; /*ancho por defecto*/
+	background: #FFFAFA url('search-icon.png') no-repeat 20px center; /*icono lupa*/
+	padding: 20px 30px 2px 42px;
+	border-radius: 7px;
+	-webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+	-moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+	-o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+	transition: all .5s; /* transición de .5seg a todos los elementos*/
+	outline: none; /* ocultar el fucos automático de los input */
+}
+
+input[type="search"]:focus{
+	width: 350px;
+	padding-bottom: 10px; /*tamaño del boton buscar al hacer click*/
+	padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+	color: #000;
+	background-color:#2c818b ;
+}
+
+.boton{
+	padding: 20px;
+}
+
+/*conejos*/
+.conejo{
+	background: url(../img/bunny-head.png);
+	background-repeat: repeat-x;
+	background-size: 200px;
+	height: 100px;
+	padding: 10px;
+}
+
+/*footer*/
+.footer{
+	background: #2c818b;
+	text-align: center;
+	padding: 60px;
+	border-top: 3px solid #ff7673;
+}
+
+.footer p{
+	font-family: "Prompt"; 
+	color: #FFFFFF;
+}
